@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="wrapper">
+        <div id="feedback">
+            <h4>Student form</h4>
+            <form id="form">
+                <label for="fname">Enter your first name: </label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Enter your last name: </label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for ="email">Enter your email id : </label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="contact">Enter your contact number: </label>
+                <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required maxlength="10"><br><br> 
+                <label for="marks1">Enter your physics marks(out of 20): </label>
+                <input type="number" id="marks1" name="marks1"><br><br>
+                <label for="marks2">Enter your chemistry marks(out of 20): </label>
+                <input type="number" id="marks2" name="marks2"><br><br>
+                <label for="marks3">Enter your maths marks(out of 20): </label>
+                <input type="number" id="marks3" name="marks3>"<br><br>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+
+#feedback{
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
